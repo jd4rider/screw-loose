@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6b4424"/><stop offset="1" stop-color="#2b1a0c"/></linearGradient>
+<linearGradient id="wood" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3d38b"/><stop offset="1" stop-color="#d49a4a"/></linearGradient>
+<linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8fafc"/><stop offset=".55" stop-color="#94a3b8"/><stop offset="1" stop-color="#475569"/></linearGradient>
+<clipPath id="c"><rect x="32" y="32" width="960" height="960" rx="210"/></clipPath>
+</defs>
+<g clip-path="url(#c)">
+<rect width="1024" height="1024" fill="url(#bg)"/>
+<g stroke="#00000022" stroke-width="6"><path d="M0 200H1024M0 400H1024M0 600H1024M0 800H1024"/></g>
+<g transform="rotate(-16 512 400)">
+<rect x="100" y="300" width="824" height="220" rx="48" fill="#00000066" transform="translate(12 22)"/>
+<rect x="100" y="300" width="824" height="220" rx="48" fill="url(#wood)"/>
+<path d="M170 350H640M330 410H860M190 470H560" stroke="#b9772e" stroke-width="8" stroke-linecap="round" opacity=".55"/>
+<circle cx="200" cy="410" r="44" fill="#2b1a0c"/>
+</g>
+<g transform="rotate(64 760 330)">
+<rect x="760" y="270" width="520" height="190" rx="44" fill="#00000066" transform="translate(12 22)"/>
+<rect x="760" y="270" width="520" height="190" rx="44" fill="url(#wood)"/>
+<path d="M830 320H1180M880 400H1230" stroke="#b9772e" stroke-width="8" stroke-linecap="round" opacity=".55"/>
+</g>
+<circle cx="760" cy="350" r="200" fill="#00000066" transform="translate(12 24)"/>
+<circle cx="760" cy="350" r="200" fill="url(#steel)" stroke="#334155" stroke-width="14"/>
+<circle cx="760" cy="350" r="150" fill="none" stroke="#ffffff" stroke-opacity=".5" stroke-width="10"/>
+<g transform="rotate(32 760 350)">
+<rect x="630" y="326" width="260" height="48" rx="16" fill="#1e293b"/>
+<rect x="736" y="220" width="48" height="260" rx="16" fill="#1e293b"/>
+</g>
+<g transform="rotate(8 330 780)">
+<rect x="130" y="700" width="600" height="170" rx="40" fill="#00000066" transform="translate(12 22)"/>
+<rect x="130" y="700" width="600" height="170" rx="40" fill="url(#wood)"/>
+<path d="M200 750H600M260 810H650" stroke="#b9772e" stroke-width="8" stroke-linecap="round" opacity=".55"/>
+<circle cx="200" cy="785" r="34" fill="url(#steel)" stroke="#334155" stroke-width="8"/>
+<path d="M178 785H222" stroke="#1e293b" stroke-width="9" stroke-linecap="round"/>
+</g>
+</g>
+</svg>
