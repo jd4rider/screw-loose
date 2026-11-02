@@ -1,7 +1,7 @@
 {
   "name": "screw-loose",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A wooden-panel puzzle: move screws between holes to unscrew panels. Hinges, sliders and heavy plates.",
   "author": "jd4rider",
   "type": "module",
